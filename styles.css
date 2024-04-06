@@ -1,6 +1,9 @@
 .container {
   border: 1px solid saddlebrown;
   font-family: "Quicksand", sans-serif;
+  max-width: 1200px;
+  /* centers the div on the webpage */
+  margin: 0 auto;
 }
 
 section {
