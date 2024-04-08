@@ -36,12 +36,16 @@ footer a {
   padding: 10px;
 }
 
+/*target the div container holding the images of projects */
 .project-images {
   margin: 30px 30px;
   padding: 30px 30px;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
-.col-4 {
-  grid-template-columns: 200px 200px 200px;
+/*target the actual image in the project image div */
+.project-images img {
+  width: 100%;
 }
