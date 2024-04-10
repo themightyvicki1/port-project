@@ -37,7 +37,7 @@
 
         <div class="project-images">
           <div class="row">
-            <div class="col-md-4" id="weather-to-text">
+            <div class="col-md-4">
               <img
                 src="images/weatherapp.png"
                 alt="weather app"
@@ -141,16 +141,15 @@
     </div>
 
     <script>
-      /*this function will target/change the weather app image to words*/
-      function changeImage() {
-        let text = document.querySelector("#weather-to-text");
-        text.innerHTML = `<button class ="weather-git">View code on GitHub</button> <button class ="weather-git">View on Netlify</button> <button class ="weather-git">Cancel</button>`;
+      /*this function will target/change the weather app image to alert links for code or site*/
+      function weatherOptions() {
+        confirm("Press a button!");
       }
 
       /*select the weather-img id, set it to element variable */
       let weatherImgElement = document.querySelector("#weather-img");
-      /*add an event listener to the id we just selected to be able to make change in next function*/
-      weatherImgElement.addEventListener("click", changeImage);
+      /*add an event listener (listen for double click) to the id we just selected to be able to make change in next function*/
+      weatherImgElement.addEventListener("dblclick", weatherOptions);
     </script>
   </body>
 </html>
