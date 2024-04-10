@@ -1,6 +1,6 @@
 body {
-  background-color: #f2f9f1;
-  color: #004445;
+  background-color: #f0fbff;
+  color: #083d56;
 }
 .container {
   font-family: "Quicksand", sans-serif;
@@ -31,7 +31,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #004445;
+  color: #083d56;
 }
 
 .contact-me-icons {
@@ -41,23 +41,52 @@ footer a {
   padding: 10px;
 }
 
+.contact-me-icons a {
+  color: #295ba7;
+  font-size: 32px;
+}
+
+.contact-me-icons a:hover {
+  font-size: 40px;
+}
+
 /*target the div container holding the images of projects */
-.project-images {
+.section-containers {
   margin: 30px 30px;
   padding: 30px 30px;
-  background-color: #ddeedf;
-  border: 2px solid #acc6aa;
+  background-color: #a6d0e4;
+  border: 2px solid #295ba7;
   border-radius: 12px;
 }
 
 /*target the actual image in the project image div */
-.project-images img {
+.section-containers img {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
 }
 
+/*div container holding the buttons*/
 .view-buttons {
   text-align: center;
+  padding: 8px 5px 8px 5px;
 }
+
+/*the buttons*/
+.view-buttons button {
+  color: #083d56;
+  border: 2px solid #083d56;
+  background-color: #f0fbff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 3px 8px 3px 8px;
+}
+
+/*hovering over a button*/
+.view-buttons button:hover {
+  color: #f0fbff;
+  background-color: #083d56;
+}
+
+/*need to target buttons when screen is smaller to allow for more space and so they aren't so on top of each other */
