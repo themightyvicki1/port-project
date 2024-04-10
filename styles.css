@@ -53,3 +53,7 @@ footer a {
   margin-bottom: 10px;
   border-radius: 8px;
 }
+
+.view-buttons {
+  text-align: center;
+}
