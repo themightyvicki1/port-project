@@ -1,5 +1,8 @@
+body {
+  background-color: #f2f9f1;
+  color: #004445;
+}
 .container {
-  border: 1px solid saddlebrown;
   font-family: "Quicksand", sans-serif;
   max-width: 1200px;
   /* centers the div on the webpage */
@@ -7,7 +10,7 @@
 }
 
 section {
-  border: 2px solid black;
+  /*border: 2px solid #acc6aa;*/
   border-radius: 10px;
   margin: 30px;
 }
@@ -28,7 +31,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: #004445;
 }
 
 .contact-me-icons {
@@ -42,7 +45,8 @@ footer a {
 .project-images {
   margin: 30px 30px;
   padding: 30px 30px;
-  background-color: blueviolet;
+  background-color: #ddeedf;
+  border: 2px solid #acc6aa;
   border-radius: 12px;
 }
 
