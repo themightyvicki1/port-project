@@ -97,4 +97,17 @@ footer a {
 .tech-icons {
   font-size: 36px;
 }
-/*need to target buttons when screen is smaller to allow for more space and so they aren't so on top of each other */
+
+@media (max-width: 1100px) {
+  /*need to target buttons when screen is smaller to allow for more space and so they aren't so on top of each other */
+  .view-buttons button {
+    margin: 5px;
+  }
+  .skills {
+    font-size: 10px;
+  }
+
+  .col-2 {
+    margin: 5px;
+  }
+}
